@@ -5,14 +5,14 @@ import { MdClose } from "react-icons/md";
 import Button from "./Button";
 
 export default function Navbar() {
-  const links = ["Home", "Dashboard", "Learn", "FAQ", "Contact", "About"];
+  const links = ["Home", "Dashboard", "Analytics", "Help", "Setting", "About Us"];
   const [isNavOpen, setIsNavOpen] = useState(false);
   const html = document.querySelector("html");
   html.addEventListener("click", (e) => setIsNavOpen(false));
   return (
     <Nav state={isNavOpen ? 1 : 0} className="flex j-between a-center">
       <div className="brand">
-        <h2>Coinbase</h2>
+        <h2>SavingShift</h2>
       </div>
       <div className="toggle">
         {isNavOpen ? (

@@ -21,7 +21,7 @@ export default function Footer() {
     "Crypto basics",
     "Tips & Turoials",
     "Market Updates",
-    "What is Bitcoin?",
+    "What is SavingShift?",
     "What is crypto?",
     "What is a blockchain?",
     "How to set up a crypto waller",
@@ -33,14 +33,16 @@ export default function Footer() {
       <div className="upper-footer">
         <div className=" flex column gap-1">
           <div className="brand">
-            <h2>Coinbase</h2>
+            <h2>SavingShift</h2>
           </div>
           <div className="address">
-            <p>GymVast, 18 East 50th Street, 4th Floor, New York, NY 10022</p>
+            <p>Perumahan Wahyu Pesona Mandiri,
+              Mejayan, Kab. Madiun, Jawa Timur
+            </p>
           </div>
           <div className="info">
-            <span>T : +1-202-555-0184</span>
-            <span>E : hello@cryptoz.com</span>
+            <span>Phone : +62812 2788 3455</span>
+            <span>  Email : Admin@savingShift.com</span>
           </div>
           <div className="social-icons flex gap-2">
             {socialIcons.map((icon, index) => {
@@ -90,7 +92,7 @@ export default function Footer() {
       </div>
       <div className="lower-footer flex a-center j-between gap">
         <div className="col1">
-          <span>&copy; Crypto a Theme by Kishan Sheth</span>
+          <span>&copy; 2023 || SavingShift</span>
         </div>
         <div className="col2 flex a-center gap">
           <span>Privacy Policy</span>

@@ -8,7 +8,7 @@ export default function Newsletter() {
       <div className="title-container flex column gap-1">
         <h2>Newsletter</h2>
         <h3 className="subdue">
-          Get now free 20% discount for all products on your first order
+        "Gain access to all premium features by subscribing to our newsletter."
         </h3>
       </div>
       <div className="newsletter flex j-center a-center gap-2">

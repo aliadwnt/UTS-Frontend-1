@@ -9,61 +9,34 @@ import {
 export default function Roadmap() {
   const data = [
     {
-      date: "July 2012",
-      name: "Google",
+      date: "Juli 2012",
+      name: "SavingShift",
       description:
-        "Let's say you invested $1,000 right before the 2008 crash and left your money there. Price for Vanguard 500 Index Fund Admiral Shares $143 (VFIAX), highest ever. Dropped to $68 in 2009. Current price $430.52.",
+        "Bayangkan Anda menabung Rp1.000.000 sebelum krisis 2008 dan terus menyimpan uang Anda. Saldo tabungan di SavingShift terus bertumbuh, membantu Anda mencapai tujuan tabungan Anda.",
       icon: <RiGoogleFill />,
     },
     {
-      date: "July 2014",
-      name: "Apple",
+      date: "Juli 2014",
+      name: "SavingShift",
       description:
-        "Assume you invested $1,000 in Apple, the stock price has never been higher at this point in time at $9.05. Current price $173.07.",
+        "Asumsikan Anda menabung Rp1.000.000 di SavingShift, aplikasi tabungan yang mudah digunakan. Saldo tabungan terus meningkat, memberikan jaminan keberhasilan keuangan Anda.",
       icon: <RiAppleFill />,
     },
     {
-      date: "July 2018",
-      name: "Amazon",
+      date: "Juli 2018",
+      name: "SavingShift",
       description:
-        "Assume you invested $1,000 in a Tech Vanguard ETF at a $52 cost (VITAX). Current price $221.94",
+        "Bayangkan Anda menabung Rp1.000.000 di SavingShift, aplikasi tabungan cerdas. Saldo tabungan terus bertumbuh, mengamankan masa depan finansial Anda.",
       icon: <RiAmazonFill />,
     },
     {
-      date: "July 2022",
-      name: "Bitcoin",
+      date: "Juli 2022",
+      name: "SavingShift",
       description:
-        "Assume you invested $1,000 in Bitcoin. Price for one Bitcoin was $17,098, later it dropped to $3,500 per Bitcoin before bouncing to over $60,000 in 2021. Current price over $42,629.",
+        "Investasikan Rp1.000.000 di SavingShift untuk perjalanan tabungan Anda. Saldo tabungan terus meningkat, membantu Anda mencapai tonggak keuangan Anda.",
       icon: <RiBitCoinFill />,
     },
-    {
-      date: "July 2012",
-      name: "Google",
-      description:
-        "Let's say you invested $1,000 right before the 2008 crash and left your money there. Price for Vanguard 500 Index Fund Admiral Shares $143 (VFIAX), highest ever. Dropped to $68 in 2009. Current price $430.52.",
-      icon: <RiGoogleFill />,
-    },
-    {
-      date: "July 2014",
-      name: "Apple",
-      description:
-        "Assume you invested $1,000 in Apple, the stock price has never been higher at this point in time at $9.05. Current price $173.07.",
-      icon: <RiAppleFill />,
-    },
-    {
-      date: "July 2018",
-      name: "Amazon",
-      description:
-        "Assume you invested $1,000 in a Tech Vanguard ETF at a $52 cost (VITAX). Current price $221.94",
-      icon: <RiAmazonFill />,
-    },
-    {
-      date: "July 2022",
-      name: "Bitcoin",
-      description:
-        "Assume you invested $1,000 in Bitcoin. Price for one Bitcoin was $17,098, later it dropped to $3,500 per Bitcoin before bouncing to over $60,000 in 2021. Current price over $42,629.",
-      icon: <RiBitCoinFill />,
-    },
+    
   ];
   return (
     <Section className="flex column gap">

@@ -8,33 +8,34 @@ export default function Services() {
   const servicesData = [
     {
       image: service1,
-      title: "Manage your portfolio",
-      descrption:
-        "Coinbase supports a variety of the most popular digital currencies.",
+      title: "Manage your savings",
+      description:
+        "Our app allows you to easily manage and grow your savings portfolio.",
     },
     {
       image: service2,
-      title: "Recurring buys",
-      descrption:
-        "Coinbase supports a variety of the most popular digital currencies.",
+      title: "Set up recurring savings",
+      description:
+        "Schedule recurring deposits to your savings account for hassle-free wealth-building.",
     },
     {
       image: service3,
-      title: "Mobile apps",
-      descrption:
-        "Coinbase supports a variety of the most popular digital currencies.",
-    },
+      title: "Mobile access",
+      description:
+        "Access your savings and financial tools on the go with our mobile app.",
+    },    
   ];
   return (
     <Section className="flex column j-center a-center gap">
       <div className="title-container flex column gap-1">
         <div className="title text-center ">
-          <h2>Start your trading with us</h2>
+          <h2>Start your Invest with us</h2>
         </div>
         <div className="subtitle text-center subdue">
           <h3>
-            Market Watchmen has a variety of features that make it the best
-            place to start trading
+          "Savingshift offers a wide range of features 
+          that make it the ideal platform
+           to kickstart your savings journey."
           </h3>
         </div>
       </div>

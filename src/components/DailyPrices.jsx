@@ -11,40 +11,32 @@ import ggcoin from "../assets/ggcoin.png";
 export default function DailyPrices() {
   const data = [
     {
-      name: "Bitcoin",
+      name: "Belanja",
       image: bitcoin,
-      short: "BTC",
-      price: "$33,592.99",
-      change: "+4.3%",
-      marketCap: "$635.14B",
-      chart: price1,
+      short: "Alfamart",
+      price: "Rp. 205.000",
+      change: "Rp. 5.000.000",
     },
     {
-      name: "Ethereum",
+      name: "Tagihan",
       image: ethereum,
-      short: "ETH",
-      price: "$2,273.19",
-      change: "+2.1%",
-      marketCap: "$267.12B",
-      chart: price2,
+      short: "PLN",
+      price: "Rp. 205.000",
+      change: "Rp. 5.000.000",
     },
     {
-      name: "GGCoin",
+      name: "Tagihan",
       image: ggcoin,
-      short: "GGC",
-      price: "$349.47",
-      change: "-7.9%",
-      marketCap: "$57.16B",
-      chart: price3,
+      short: "BPJS",
+      price: "Rp. 205.000",
+      change: "Rp. 5.000.000",
     },
     {
-      name: "Bitcoin",
+      name: "Pembayaran",
       image: bitcoin,
-      short: "BTC",
-      price: "$0.9434",
-      change: "0.0%",
-      marketCap: "$27.12B",
-      chart: price4,
+      short: "Pendidikan",
+      price: "Rp. 205.000",
+      change: "Rp. 5.000.000",
     },
   ];
   const getPriceChangeClassName = (change) => {
@@ -57,17 +49,15 @@ export default function DailyPrices() {
     <Section className="flex gap-2 column">
       <div className="container">
         <div className="header subdue">
-          <span>#</span>
-          <span>Name</span>
-          <span>Price</span>
-          <span>Change</span>
-          <span>Market Cap</span>
-          <span>Chart</span>
+          <span>No</span>
+          <span>Kategori Pengeluaran</span>
+          <span>Pengeluaran</span>
+          <span>Tabungan</span>
         </div>
         <div className="data flex column gap-1">
           {data.map(
             (
-              { name, image, short, price, change, marketCap, chart },
+              { name, image, short, price, change},
               index
             ) => {
               return (
@@ -83,10 +73,6 @@ export default function DailyPrices() {
                   <span>{price}</span>
                   <span className={getPriceChangeClassName(change)}>
                     {change}
-                  </span>
-                  <span>{marketCap}</span>
-                  <span className="chart">
-                    <img src={chart} alt="chart" />
                   </span>
                 </div>
               );

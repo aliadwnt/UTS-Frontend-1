@@ -18,17 +18,17 @@ export default function Home() {
           </h3>
         </div>
         <div className="title">
-          <h1>The Easies Way to Track Multiple Currencies</h1>
+          <h1>Access Your Savings Anywhere, Anytime</h1>
         </div>
         <div className="description">
           <p className="subdue">
-            Market Watchman allow you tu monitor your balances, trade without,
-            limits and earn rewards for specific coins.
+          Experience the convenience of accessing your savings with our app, 
+          making it easier for you to manage your finances no matter where you are.
           </p>
         </div>
         <div className="buttons flex gap-1">
           <Button text="Try Now" icon={<FaChevronCircleRight />} />
-          <Button text="How it works?" subduedButton />
+          <Button text="Testimonial?" subduedButton />
         </div>
       </div>
       <div className="image">

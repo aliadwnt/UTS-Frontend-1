@@ -13,18 +13,19 @@ export default function AboutUs() {
             <h3>About Us</h3>
           </div>
           <div className="title">
-            <h2>Why would You Choose Market Watchmen?</h2>
+            <h2>Why Would You Choose SavingShift?</h2>
           </div>
         </div>
         <div className="flex gap">
           <div className="info flex column gap a-start j-center">
-            <p className="subdue">Easy To Learn Platform –</p>
+            <p className="subdue">User-Friendly Platform  –</p>
             <p className="subdue">
-              We won’t ask you to link to your bank accounts, we just want
-              everyone to have the opportunity to understand the potential of
-              saving and investing for retirement or short term goals. We simply
-              do data analytics and simplify the way you look at investment
-              assets
+            "We don't require you to link your bank accounts; 
+            our goal is to provide everyone with the opportunity 
+            to grasp the potential of saving and investing, 
+            whether it's for retirement or short-term goals. 
+            We utilize data analytics to simplify 
+            the way you manage your savings and investments"
             </p>
             <Button text="Start Earning" icon={<FaChevronCircleRight />} />
           </div>
