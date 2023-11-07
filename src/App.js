@@ -9,6 +9,9 @@ import Roadmap from "./components/Roadmap";
 import ScrollToTop from "./components/ScrollToTop";
 import Services from "./components/Services";
 import SignUp from "./components/SignUp";
+import ParticlesBackground from './components/ParticlesBackground';
+import './App.js';
+import Tab from './components/tabs';
 
 export default function App() {
   return (
@@ -23,6 +26,8 @@ export default function App() {
       <Roadmap />
       <Newsletter />
       <Footer />
+      <ParticlesBackground />
+      <Tab /> 
     </div>
   );
 }
